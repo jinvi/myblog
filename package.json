@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover node_modules/mocha/bin/_mocha",
-    "sv": "supervisor index"
+    "sv": "cross-env NODE_ENV=production supervisor index"
   },
   "author": "",
   "license": "ISC",

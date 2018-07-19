@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover node_modules/mocha/bin/_mocha",
-    "sv": "cross-env NODE_ENV=production supervisor index"
+    "sv": "supervisor index",
+    "pd": "cross-env NODE_ENV=production supervisor index",
+    "heroku": "NODE_ENV=production node index"
   },
   "author": "",
   "license": "ISC",
